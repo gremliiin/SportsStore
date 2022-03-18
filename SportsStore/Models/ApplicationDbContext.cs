@@ -1,9 +1,10 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace SportsStore.Models
 {
-    public class ApplicationDbContext
+    public class ApplicationDbContext : DbContext
     {
-
+          
     }
 }
